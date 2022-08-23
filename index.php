@@ -18,14 +18,15 @@
             <img src="imagen/hotel.png" alt="" class="logo">
         </a>
         <ul>
-            <li><a class="" href="#">Inicio</a></li>
-            <li><a href="inicia.php">Registrar</a></li>   
+            <li><a class="" href="registro/sesion.php">Iniciar Sesion</a></li>
+            <li><a class="" href="inicia.php">Registrar</a></li>   
         </ul>
     </nav>
     <section id="banner">
         <img src="imagen/hotel3.jpg" alt="">
         <div class="container">
-            <h1>Bienvenidos</h1>
+            <h1>Bienvenidos</h1>}
+            
         </div>
             <h2>Bienvenido A Nuestro Hotel</h2> 
             <div align="center" id="mapa">

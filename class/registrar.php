@@ -22,7 +22,7 @@
         }      
         //crear matricula
         public function registrarClientes(){
-            $sql = "INSERT INTO registros(nombre, correo, contraseña, fecha)
+            $sql = "INSERT INTO registros(nombre, correo, password, fecha)
                 VALUES('{$this->nombre}', '{$this->correo}', 
                 '{$this->contraseña}', '{$this->fecha}');";
             $res = $this->con->consultaSimpre($sql);
