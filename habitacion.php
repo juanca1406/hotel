@@ -14,9 +14,7 @@
     }
 ?>
 <?php
-     require_once "class/registrar.php";
-     $regis = new Registrar;    
-     $lista = $regis->listaClientes();
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +26,9 @@
     <link rel="stylesheet" href="css/reserva.css">
     <link rel="shortcut icon" href="imagen/hotel.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav>  
@@ -36,20 +37,12 @@
             <img src="imagen/hotel.png" alt="" class="logo">
         </a>
         <ul>
-            <li><a class="active" href="index.php"><tbody>
-                <?php
-                    foreach ($lista as $row){
-                ?>
-                <tr>
-                    <td><?= $row['nombre']; ?></td>
-                </tr>
-                <?php
-                    }
-                ?>
-            </tbody>Inicio</a></li>  
+            <li><a class="active" href="habitacion.php"><tbody>
+               <?php echo $_SESSION['nombre']?>
+            </tbody></a></li>  
         </ul>
         <h1>Habitacion</h1>
-        <img src="imagen/habitacion1.jpg" alt="">
+        <img src="imagen/habitacion1.jpg" alt="" >
         <label for="">precio: 150.000 
             <p>Para Pareja</p>
         </label>
