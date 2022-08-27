@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Torre Juan</title>
     <link rel="stylesheet" href="css/index.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    </style>
     <link rel="shortcut icon" href="imagen/hotel.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -22,15 +25,13 @@
             <li><a class="" href="inicia.php">Registrar</a></li>   
         </ul>
     </nav>
-    <section id="banner">
-       
-
         <div class="container">
             <h1>Bienvenidos</h1>
-
+            <h2>Hotel Torre Juan</h2>
         </div>
-        
-    </footer>
-    </section>
+
+
+      
+    
 </body>
 </html>

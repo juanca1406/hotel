@@ -1,10 +1,89 @@
-@import url(menu.css);
-@import url(banner.css);
 
 body{
-    background-image: url(../imagen/hotel3.jpg);
+    background-image: url(../imagen/hotel4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    filter: blur(0);
+    text-align: center;
+    
+    
 }
+.container h1{
+    text-align: center;    
+    color: #AEB6BF;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    top: 4%;
+    left: 42%;
+    font-size: 50px;
+}
+.container h2{
+    text-align: center;    
+    color: #e9e9ea;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+    top: 450%;
+    left: 40%;
+    font-size: 50px;
+}
+nav ul li{
+    background-color: #2e2d2d;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: rgb(58, 58, 58);
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 10px 50px;
+}
+.logo{
+    height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #bfbfbd;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+

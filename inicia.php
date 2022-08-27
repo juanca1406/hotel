@@ -20,14 +20,17 @@
 ?>
 <link rel="shortcut icon" href="imagen/hotel.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <title>Registro</title>
+  
+  <link rel="stylesheet" href="css/inicio.css">
+  <title>Registrate</title>
 
 <div class="container">
+  
 <br>    
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
   <a class="navbar-brand col-md-10" href="#">Registrar</a>
-  <a href="index.php"><button type="submit" class="btn btn-primary" value="Input Button">Regresar</button></a>
+  <a href="index.php"><button type="submit" class="btn btn-" value="Input Button">Regresar</button></a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -39,15 +42,15 @@
   <br>
   <form action="habitacion.php" method="post">
   <div class="form-group">
-      <label for="">Nombre:</label>
+      
       <input type="text" class="form-control" placeholder="Ingresa Nombre" name="txtnombre" required>
     </div>
     <div class="form-group">
-      <label for="">Correo:</label>
+      <br>
       <input type="text" class="form-control" placeholder="Ingresa Correo" name="txtcorreo" required>
     </div>
     <div class="form-group">
-      <label for="">Contraseña:</label>
+      <br>
       <input type="password" class="form-control" placeholder="Ingresa Contraseña" name="txtcontraseña" required>
     </div>
     <div class="form-group form-check">
@@ -55,6 +58,6 @@
         <input class="form-check-input" type="checkbox" name="remember"> Recordar Contraseña
       </label>
     </div>
-      <button type="submit" class="btn btn-primary" name="btnresgistrar">Registrar</button>
+      <button type="submit" class="btn btn-Secondary" name="btnresgistrar">Registrar</button>
   </form>
 </div>

@@ -18,7 +18,7 @@ if($filas){
 }else{
     include("sesion.php");
     ?>
-    <h1>ERROR DE AUTENTIFICACION</h1>
+    <h1 class="bad">ERROR DE AUTENTIFICACION</h1>
     <?php
     
 }

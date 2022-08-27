@@ -1,4 +1,17 @@
-
-h1{
-   color: red; 
+body {
+   text-align: center !important;
+   font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
+.container{
+   background-color: rgb(241, 241, 245);
+   background: url(../imagen/hotel4.jpg);
+   background-size: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     width: px;
+     height: 725px;
+     max-width: 1700px;
+     filter: blur(5);
+     text-align: center;
+ }

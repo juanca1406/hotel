@@ -1,0 +1,23 @@
+.container{
+  background-color: rgb(241, 241, 245);
+  background: url(../imagen/hotel4.jpg);
+  background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: px;
+    height: 725px;
+    max-width: 1700px;
+    filter: blur(5);
+    text-align: center;
+}
+.form-group{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+
+div .class{
+  color: rgb(0, 0, 0);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
